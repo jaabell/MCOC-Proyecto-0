@@ -1,11 +1,15 @@
 # MCOC-Proyecto-0
 MCOC-Proyecto-0
 
-Intro
-======
+Introducción
+==============
 
 En este proyecto deben ilustrar con algun ejemplo, distinto de este, el efecto de perdida de significancia. 
 Ver [enunciado oficial](https://www.dropbox.com/s/pzxwx4c03tqra9t/proyecto0.pdf?dl=0). 
+
+Este ejemplo
+==============
+
 
 Aquí pueden ver, a modo de ejemplo, el caso discutido en clases.Se muestra como la operación de promedio `sp.mean` pierde significancia al aumentar el tamaño de la muestra a promediar. Esto es una version mas elaborada de la discución en la [documentación de scipy](https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mean.html).
 
@@ -19,6 +23,9 @@ Se implementan y comparan 5 ideas.
 
 Se define el error relativo como 
 
+	ERROR = (Promedio_Calculado - Resultado_Exacto) / Resultado_Exacto
+
+Abajo se muestra como va creciendo el error relativo en la medida en que se consideran cada vez mas números. Esto ocurre debido a la perdida de significancia en la operacion suma usada internamente por el algoritmo de `sp.mean`. 
 
 ![Results](loss-of-significance.png)
 
