@@ -31,7 +31,7 @@ Abajo se muestra como va creciendo el error relativo en la medida en que se cons
 
 
 Recursos
-############
+==============
 
 + Para escribir su `README.md` [https://help.github.com/articles/basic-writing-and-formatting-syntax]
 + Articulo wiki sobre el tema: [https://en.wikipedia.org/wiki/Loss_of_significance]
